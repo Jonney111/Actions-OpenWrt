@@ -10,6 +10,7 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-# Modify default IP
+# Modify default IP（FROM 192.168.1.1 CHANGE TO 192.168.5.1）
 # sed -i 's/192.168.5.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
+sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings    # 设置密码为空
