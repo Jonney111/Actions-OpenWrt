@@ -14,3 +14,12 @@
 # sed -i 's/192.168.5.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings    # 设置密码为空
+
+
+# Modify system hostname（FROM OpenWrt CHANGE TO OpenWrt-N1）
+# sed -i 's/OpenWrt/OpenWrt-N1/g' package/base-files/files/bin/config_generate
+
+# Replace the default software source
+# sed -i 's#openwrt.proxy.ustclug.org#mirrors.bfsu.edu.cn\\/openwrt#' package/lean/default-settings/files/zzz-default-settings
+# sed -i 's/invalid users = root/#invalid users = root/g' feeds/packages/net/samba4/files/smb.conf.template
+
