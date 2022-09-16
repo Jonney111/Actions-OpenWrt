@@ -23,3 +23,9 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-defaul
 # sed -i 's#openwrt.proxy.ustclug.org#mirrors.bfsu.edu.cn\\/openwrt#' package/lean/default-settings/files/zzz-default-settings
 # sed -i 's/invalid users = root/#invalid users = root/g' feeds/packages/net/samba4/files/smb.conf.template
 
+# 拉取软件包
+# 从openclash拉取luci-app-openclash包
+# svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash 
+
+# 直接gitluci-app-adguardhome项目
+# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
