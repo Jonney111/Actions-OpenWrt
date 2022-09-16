@@ -27,5 +27,5 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-defaul
 # 从openclash拉取luci-app-openclash包
 # svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash 
 
-# 直接gitluci-app-adguardhome项目
-# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
+# 直接git luci-app-adguardhome项目
+# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
