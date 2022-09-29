@@ -14,7 +14,7 @@ A template for building OpenWrt with GitHub Actions
 - Select `Build OpenWrt` on the Actions page.
 - Click the `Run workflow` button.
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
-- 登录地址：192.168.5.1   登录密码：无
+- IPdress：192.168.5.1   PASSWD:empty
 
 ## Tips
 
