@@ -38,4 +38,6 @@ svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-pass
 git clone https://github.com/fw876/helloworld.git package/helloworld
 svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns package/smartdns
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/luci-app-smartdns
-# svn co https://github.com/Jonney111/openwrt-packages/trunk/luci-app-adguardhome
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb  #git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+
