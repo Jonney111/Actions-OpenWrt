@@ -30,7 +30,9 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-defaul
 # 从openclash拉取luci-app-openclash包
 # svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash 
 
-svn co https://github.com/Jonney111/openwrt-packages/trunk/luci-app-adguardhome
+svn co https://github.com/Jonney111/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
 svn co https://github.com/Jonney111/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 svn co https://github.com/lisaac/luci-app-diskman/trunk/applications/luci-app-diskman package/luci-app-diskman
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
 # svn co https://github.com/Jonney111/openwrt-packages/trunk/luci-app-adguardhome
