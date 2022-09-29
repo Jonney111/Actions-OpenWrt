@@ -36,4 +36,6 @@ svn co https://github.com/lisaac/luci-app-diskman/trunk/applications/luci-app-di
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
 git clone https://github.com/fw876/helloworld.git package/helloworld
+svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns package/smartdns
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/luci-app-smartdns
 # svn co https://github.com/Jonney111/openwrt-packages/trunk/luci-app-adguardhome
