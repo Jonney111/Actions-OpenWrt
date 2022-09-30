@@ -19,7 +19,7 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-defaul
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/kenzo/luci-app-bypass/Makefile
 
 
-# Modify system hostname（FROM OpenWrt CHANGE TO JonnLee）
+# Modify system hostname（FROM OpenWrt CHANGE TO JonneyLee）
 # sed -i 's/OpenWrt/JonneyLee/g' package/base-files/files/bin/config_generate
 
 # Replace the default software source
