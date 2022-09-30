@@ -49,7 +49,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxmin
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 #argon主题
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
-git clone https://github.com/kenzok78/luci-theme-argonne package/luci-theme-argonne
+git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
 
 
 
