@@ -26,7 +26,10 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-defaul
 # sed -i 's#openwrt.proxy.ustclug.org#mirrors.bfsu.edu.cn\\/openwrt#' package/lean/default-settings/files/zzz-default-settings
 # sed -i 's/invalid users = root/#invalid users = root/g' feeds/packages/net/samba4/files/smb.conf.template
 
+
+
 # 拉取软件包
+
 #adguardhome
 svn co https://github.com/Jonney111/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
 #openclash
@@ -47,6 +50,9 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 #argon主题
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
+
+
 # 删除重复包
+
 #rm -rf feeds/luci/themes/luci-theme-argon
 
