@@ -28,14 +28,22 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-defaul
 
 
 
+
 # 拉取软件包
 
+
+#openclash
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 #diskman
 svn co https://github.com/lisaac/luci-app-diskman/trunk/applications/luci-app-diskman package/luci-app-diskman
+#passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
+#Ssr plus
+git clone https://github.com/fw876/helloworld.git package/helloworld
 #HelloWorld
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb  #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
-svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
 #argon主题
 git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
 
