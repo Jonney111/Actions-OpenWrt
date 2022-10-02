@@ -35,6 +35,7 @@ svn co https://github.com/lisaac/luci-app-diskman/trunk/applications/luci-app-di
 #HelloWorld
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb  #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
 #argon主题
 git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
 
